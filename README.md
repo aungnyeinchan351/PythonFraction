@@ -2,11 +2,11 @@
 Python has a data type called fractions. Unlike int and float, fractions are not a built in data type. To use fractions, need to import python module called *fractions*.
 
 ## Importing fractions module
-*Fractions* module is already involved in python standard library. You don't need to install it separately. Imopot it using *import* keyword.
+**Fractions** module is already involved in python standard library. You don't need to install it separately. Imopot it using **import** keyword.
 ```
 from fractions import Fraction
 ```
-Import *Fraction* method from *fractions* class.
+Import **Fraction** method from *fractions* class.
 
 ## Fraction without argumnts
 Fraction can be used without passing any argument. It will return "0".
@@ -17,7 +17,7 @@ print(Fraction())
  ouput is *0*.
 
 ## Fraction with decimal arguments
-By passing decimal number into *Fraction*, it will return the fraction of given decimal number.
+By passing decimal number into **Fraction**, it will return the fraction of given decimal number.
 ```
 from fractions import Fraction
 print(Fraction(0.25))
@@ -25,7 +25,7 @@ print(Fraction(0.25))
 output is *1/4*.
 
 ## Fraction with two arguments
-By passing two numbers into *Fraction*, it will return the fraction of given two numbers. The first number will be numerator and the second number will be denominator.
+By passing two numbers into **Fraction**, it will return the fraction of given two numbers. The first number will be numerator and the second number will be denominator.
 ```
 from fractions import Fraction
 print(Fraction(1, 2))
