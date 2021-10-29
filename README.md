@@ -90,4 +90,4 @@ Contact me on [Facebook](https://www.facebook.com/zinyaw3063)
 
 Contact me on [GitHub](https://www.github.com/aungnyeinchan351)
 
-Contace me on [Email](aungnyeinchan3063@protonmail.com)
+Contace me on [Email](mailto:aungnyeinchan3063@protonmail.com)
