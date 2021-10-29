@@ -2,7 +2,7 @@
 Python has a data type called fractions. Unlike int and float, fractions are not a built in data type. To use fractions, need to import python module called **fractions**.
 
 ## Importing fractions module
-**Fractions** module is already involved in python standard library. You don't need to install it separately. Imopot it using **import** keyword.
+**Fractions** module is already involved in python standard library. You don't need to install it separately. Import it using **import** keyword.
 ```
 from fractions import Fraction
 ```
@@ -86,8 +86,8 @@ output is **ZeroDivisionError**.
 
 You can get the code of this example at [fraction_tutorial.py](https://github.com/aungnyeinchan351/PythonFraction/blob/main/fraction_tutorial.py).
 
-Contact me on [Facebook](https://www.facebook.com/zinyaw3063)
+Follow me on [Facebook](https://www.facebook.com/zinyaw3063)
 
-Contact me on [GitHub](https://www.github.com/aungnyeinchan351)
+Follow me on [GitHub](https://www.github.com/aungnyeinchan351)
 
 Contace me on [Email](mailto:aungnyeinchan3063@protonmail.com)
