@@ -14,7 +14,7 @@ Fraction can be used without passing any argument. It will return "0".
 from fractions import Fraction
 print(Fraction())
 ```
- ouput is *0*.
+ ouput is **0**.
 
 ## Fraction with decimal arguments
 By passing decimal number into **Fraction**, it will return the fraction of given decimal number.
@@ -22,7 +22,7 @@ By passing decimal number into **Fraction**, it will return the fraction of give
 from fractions import Fraction
 print(Fraction(0.25))
 ```
-output is *1/4*.
+output is **1/4**.
 
 ## Fraction with two arguments
 By passing two numbers into **Fraction**, it will return the fraction of given two numbers. The first number will be numerator and the second number will be denominator.
@@ -30,7 +30,7 @@ By passing two numbers into **Fraction**, it will return the fraction of given t
 from fractions import Fraction
 print(Fraction(1, 2))
 ```
-output is *1/2*.
+output is **1/2**.
 
 ## Greatet Common Divisor
 
@@ -39,7 +39,7 @@ Both magnitude get simplified by their **Greatest Common Divisor(GCD)**. GCD of 
 from fractions import Fraction
 print(Fraction(14, 49))
 ```
-output is *2/2*.
+output is **2/7**.
 
 ## Negative fractions 
 
@@ -50,7 +50,7 @@ print(-Fraction(1, 2))
 print(Fraction(-1, 2))
 print(Fraction(1, -2)).
 ```
-output of all code is *-1/2*.
+output of all code is **-1/2**.
 
 ## Adding, differening, multiplying and divising fractions 
 You can add, difference, multiply, divide fractions with simple **arithmetic operator**.
@@ -63,7 +63,7 @@ print(one_half - one_third)
 print(one_half * one_third)
 print(one_half / one_third)
 ```
-output is *5/6, 1/6, 1/6, 3/2*.
+output is **5/6, 1/6, 1/6, 3/2**.
 
 ## fractions with zero numerator
 By putting 0 at the place numerator, the result will be zero since the division of zero by any number is zero.
@@ -71,7 +71,7 @@ By putting 0 at the place numerator, the result will be zero since the division 
 from fractions import Fraction
 print(Fraction(0, 5))
 ```
-output is *o*.
+output is **o**.
 
 ## fractions with zero denominator
 By placing 0 at the place of denominator, the result will be *ZeroDivisionError* since zero cannot divide any number.
@@ -82,7 +82,7 @@ try:
 except ZeroDivisionError:
     print("ZeroDivisionError")
 ```
-output is *ZeroDivisionError*.
+output is **ZeroDivisionError**.
 
 You can get the code of this example at [fraction_tutorial.py](https://github.com/aungnyeinchan351/PythonFraction/blob/main/fraction_tutorial.py).
 
