@@ -43,3 +43,9 @@ try:
     print(Fraction(1, 0))
 except ZeroDivisionError:
     print("ZeroDivisionError")
+    
+# Fractions with strings
+print(Fraction('1/2')
+
+# limit denominator
+print(Fraction(3.142).limit_denominator(23))
