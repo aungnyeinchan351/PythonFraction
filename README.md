@@ -84,6 +84,22 @@ except ZeroDivisionError:
 ```
 output is **ZeroDivisionError**.
 
+## Fractions with Strings
+You can add string parameter in **Fraction** method directly and get the fraction in the srring as a result.
+```
+from fractions import Fraction
+print(Fraction('1/2')
+```
+output is **1/2**.
+
+## Fraction with limit denominator
+The denominator of a fraction can be limited. Example- the fraction of 3.142 can be **311/99** or **22/7**. But, when we limit the denominator at 8, the result will be 22/7 since the denominator is not greater than 7.
+```
+from fractions import Fraction
+print(Fraction(3.142).limit_denominator(8))
+```
+output is **22/7**.
+
 You can get the code of this example at [fraction_tutorial.py](https://github.com/aungnyeinchan351/PythonFraction/blob/main/fraction_tutorial.py).
 
 Follow me on [Facebook](https://www.facebook.com/zinyaw3063)
